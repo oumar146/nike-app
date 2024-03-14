@@ -1,0 +1,53 @@
+.footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    gap: 80px;
+    position: relative;
+    color : gray
+}
+
+.column {
+display:flex;
+flex-direction: column;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.icons a {
+    color: white;
+    margin-left: 10px;
+}
+.icons img{
+    width: 40px;
+    height: 40px;
+}
+
+.space{
+    margin-top: 150px;
+}
+
+.small_title{
+    text-transform: uppercase;
+    color: white;
+}

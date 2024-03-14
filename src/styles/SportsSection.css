@@ -1,0 +1,17 @@
+.slider-container {
+  width: 95%; /* ou toute autre largeur désirée */
+  margin: auto; /* centre le conteneur */
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%; /* Définir une largeur pour chaque image */
+    margin-right: 10px;
+  }
+
+.button_section_sport {
+  position: absolute;
+  bottom: 50px;
+  left: 80px;
+} 
+

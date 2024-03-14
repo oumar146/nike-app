@@ -1,0 +1,21 @@
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  margin: 0 -10px;
+}
+.slider-container {
+  width: 95%; /* ou toute autre largeur désirée */
+  margin: auto; /* centre le conteneur */
+}
+
+.item {
+  max-width: 100%; /* empêche les images de dépasser de leur conteneur */
+  height: auto; /* permet aux images de conserver leur ratio */
+}
+
+.slick-slide div {
+  text-align: center; /* centre le contenu dans chaque slide */
+}
+

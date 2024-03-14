@@ -1,0 +1,50 @@
+/* NikeInvincibleSection.css */
+
+.nike-invincible-section {
+  background-color: white; /* Fond gris */
+  padding: 20px;
+  display: flex;
+  flex-direction: column; /* Affichage en colonne */
+  align-items: center; /* Centrage horizontal */
+  justify-content: center; /* Centrage vertical */
+  text-align: center; /* Alignement du texte au centre */
+  margin-bottom: 100px;
+}
+
+.nike-invincible-section h2 {
+  font-size: 36px; /* Taille de police plus grande */
+  color: #000; /* Texte noir */
+}
+
+.nike-invincible-section p {
+  font-size: 16px; /* Taille de police */
+  color: #000; /* Texte noir */
+  margin-bottom: 10px; /* Marge inférieure */
+}
+
+.nike-invincible-section a {
+  text-decoration: none;
+  padding: 10px 20px; /* Espacement du bouton */
+  background-color: #000; /* Fond noir */
+  color: #fff; /* Texte blanc */
+  border: none; /* Pas de bordure */
+  border-radius: 5px; /* Coins arrondis */
+  cursor: pointer; /* Curseur de la souris */
+}
+
+.nike-invincible-section a:hover {
+  background-color: #333; /* Fond noir foncé au survol */
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+.image-section img {
+  width: 100%; /* Pour s'adapter à la largeur de la section */
+  height: auto;
+}
+h2 {
+  padding-top: 35px;
+  padding-bottom: 15px;
+  font-weight: 600;
+}

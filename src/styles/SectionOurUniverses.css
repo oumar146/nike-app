@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.image-container {
+  display: flex;
+  overflow-x: auto; /* Ajouter une barre de défilement horizontale si nécessaire */
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%; /* Définir une largeur pour chaque image */
+  margin-right: 10px;
+}
+
+.image-wrapper img {
+  width: 100%; /* Assurer que l'image s'adapte à la largeur du wrapper */
+  height: auto; /* Permettre à la hauteur de l'image de s'adapter proportionnellement à sa largeur */
+}
+
+.button_univers {
+  position: absolute;
+  bottom: 70px;
+  left: 100px;
+}
+
+
+.merge {
+  margin-left: 20px;
+}
